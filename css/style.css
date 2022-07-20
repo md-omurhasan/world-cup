@@ -398,7 +398,7 @@ footer ul li {
 
 }
 footer .social-link{
-    visibility: hidden;
+    
 display: flex;
 justify-content: center;
 padding-bottom: 90px;
@@ -409,7 +409,7 @@ footer .social-link a{
 }
 
 footer .socia-link .fb{
-font-size: 40px;
+font-size: 60px;
 color: #eb122f;
 
 }
@@ -420,12 +420,12 @@ footer .social-link a:visited{
     color: #eb122f;
 }
 footer .socia-link .twitter{
-    font-size: 40px;
+    font-size: 60px;
     color: #eb122f;
    
     }
     footer .socia-link .linkedin{
-        font-size: 40px;
+        font-size: 60px;
         color: #eb122f;
         }
 /* ==---=== -=-=-==--==
