@@ -1,0 +1,790 @@
+/* ====================
+common css starts here 
+====================== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1321px;
+    margin: 0 auto;
+}
+
+ul,
+ol li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+a {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+/* ==---=== -=-=-==--==
+     common css ends  here 
+==---=== -=-=-==--== */
+
+/* ==---=== -=-=-==--==
+  header css starts here , wait for the best css ever !
+==---=== -=-=-==--== */
+header .container {
+    margin-top: 50px;
+}
+
+header .container .banner {
+
+    display: flex;
+    justify-content: center;
+    background: #161616;
+    border-radius: 50px;
+
+}
+
+header .container .banner .info {
+    width: 60%;
+    margin-left: 106px;
+
+}
+
+header .container .banner .info h1 {
+    width: 531px;
+    margin-top: 79px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    color: #ffff;
+}
+
+header .container .banner .info .great {
+    width: 531px;
+    margin-top: 79px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    color: #eb122f;
+    transition: 0.7s;
+}
+
+header .banner .info:hover .great {
+    color: #ffff;
+}
+
+header .container .banner .info h2 {
+    width: 506px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffff;
+
+}
+
+header .container .banner .info a {
+    margin-bottom: 111px;
+    display: inline-block;
+    background-image: linear-gradient(to top, #051937, #3b225a, #7e1667, #be0058, #eb122f);
+    border-radius: 5px;
+    padding: 15px 25px;
+    color: #ffff;
+    
+
+}
+
+header .container .banner .info a:hover {
+    color: #ffff;
+    background: hsla(333, 100%, 53%, 1);
+
+    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+
+   
+}
+
+header .container .banner .info .play {
+    width: 24px;
+    height: 24px;
+    color: #ffff;
+}
+
+header .container .banner .player-image {
+    width: 40%;
+    margin-right: 79px;
+    padding-top: 30px;
+
+}
+
+header .container .banner .player-image img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* ==---=== -=-=-==--==
+     header css ends  here 
+==---=== -=-=-==--== */
+
+
+
+/* ==---=== -=-=-==--==
+     player blog starts here 
+==---=== -=-=-==--== */
+#blogs {
+    margin-top: 130px;
+}
+
+#blogs .player-blog {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+#blogs .player-blog .blog-bar {
+    width: 30%;
+
+
+}
+
+#blogs .player-blog .blog-bar .side-bar {
+    width: 312px;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:
+        #161616;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 24px;
+    border-radius: 15px;
+}
+
+
+#blogs .player-blog .blog-bar .side-bar .match a {
+
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 17px 50px;
+    color: #051937;
+    background: #ffff;
+    margin-bottom: 30px;
+    transition: 0.42s;
+
+
+}
+
+#blogs .player-blog .blog-bar .side-bar .match:hover a {
+    color: #ffff;
+    background: #FF9933;
+}
+
+#blogs .player-blog .blog-bar .side-bar .group a {
+
+
+    display: inline-block;
+
+    border-radius: 5px;
+    padding: 17px 79px;
+    color: #051937;
+    background: #ffff;
+    margin-bottom: 30px;
+    transition: 0.42s;
+
+
+}
+
+#blogs .player-blog .blog-bar .side-bar .group:hover a {
+    color: #ffff;
+    background: #333366;
+}
+
+#blogs .player-blog .blog-bar .side-bar .blog-btn a {
+
+
+    display: inline-block;
+
+    border-radius: 5px;
+    padding: 17px 103px;
+    color: #ffff;
+    background: #eb122f;
+    margin-bottom: 30px;
+
+
+
+}
+
+
+#blogs .player-blog .blog-links {
+    width: 70%;
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 20px;
+}
+
+#blogs .player-blog .blog-links .blog {
+    border: 1px solid rgb(241, 239, 239);
+    border-radius: 10pxpx;
+}
+
+#blogs .player-blog .blog-links .blog .blog-details {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#blogs .player-blog .blog-links .blog .blog-details .img {
+    margin-bottom: 20px;
+}
+
+#blogs .player-blog .blog-links .blog .blog-details .img img {
+    width: 100%;
+}
+
+#blogs .player-blog .blog-links .blog .blog-details .button {
+    margin-left: 20px;
+}
+
+#blogs .player-blog .blog-links .blog .blog-details a {
+    display: inline-block;
+    padding: 4px 15px;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+#blogs .player-blog .blog-links .blog .blog-details .text-div {
+    margin-left: 20px;
+}
+
+#blogs .player-blog .blog-links .blog .blog-details h4 {
+    font-weight: 500;
+    font-size: 16px;
+    width: 272px;
+    height: 54px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+#blogs .player-blog .blog-links .blog .blog-details .blog-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#blogs .player-blog .blog-links .blog .blog-details .blog-icon .clock {
+    color: #1b1717;
+    font-size: 24px;
+
+
+}
+
+#blogs .player-blog .blog-links .blog .blog-details .blog-icon h2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #161616B2;
+    margin-left: 10px;
+}
+
+#blogs .player-blog .blog-links .blog .blog-details .blog-icon .massage {
+    color: rgb(15, 13, 13);
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+#blogs .player-blog .blog-links .blog .blog-details .blog-icon p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #161616B2;
+    margin-left: 10px;
+}
+
+/* ==---=== -=-=-==--==
+     player blog ends here 
+==---=== -=-=-==--== */
+#view{
+  visibility: hidden;
+    margin-bottom: 50px;
+}
+
+#view .viewall {
+   
+    display: flex;
+}
+
+#view .viewall .button-viewall a {
+    display: inline-block;
+    padding: 12px 29px;
+    border: 1px solid #eb122f;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFF;
+    background: #eb122f;
+
+}
+
+
+
+
+
+
+
+
+
+/* ==---=== -=-=-==--==
+    footer starts here 
+==---=== -=-=-==--== */
+
+
+footer{
+    background:  #161616;
+}
+footer h1{
+    text-transform: uppercase;
+    color: #ffff;
+    padding-top: 130px;
+    text-align: center;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+margin-bottom: 50px;
+}
+footer hr{
+    width: 100%;
+    background-color: 
+    #FFFFFF
+    ;
+    height: 1px;
+    margin-bottom: 50px;
+}
+
+footer ul{
+    text-align: center;
+}
+footer ul li {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-right: 56px;
+    margin-bottom: 40px;
+
+}
+footer .social-link{
+    visibility: hidden;
+display: flex;
+justify-content: center;
+padding-bottom: 90px;
+
+}
+footer .social-link a{
+    margin-right: 20px;
+}
+
+footer .socia-link .fb{
+font-size: 40px;
+color: #eb122f;
+
+}
+footer .social-link a:link{
+    color: #eb122f;
+}
+footer .social-link a:visited{
+    color: #eb122f;
+}
+footer .socia-link .twitter{
+    font-size: 40px;
+    color: #eb122f;
+   
+    }
+    footer .socia-link .linkedin{
+        font-size: 40px;
+        color: #eb122f;
+        }
+/* ==---=== -=-=-==--==
+     happy ending footer 
+==---=== -=-=-==--== */
+
+
+  /*  .===.=.==......=..=.=.=.=.=.=..=.=.=.=.=....=..=.=.=.
+                  media query starting
+  .===.=.==......=..=.=.=.=.=.=..=.=.=.=.=....=..=.=.= */
+@media screen and (max-width:576px) {
+    header{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .container{
+        width: 100%;
+     
+    }
+    header .container{
+        margin-top: 0;
+    }
+    header .container .banner {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #161616;
+        align-items: center;
+  
+    
+    }
+    
+    header .container .banner .info {
+        width:50%;
+      margin-left: 0;
+     
+        padding: 0 28px;
+      
+    
+    }
+    
+    header .container .banner .info h1 {
+        width: 187px;
+      
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        color: #ffff;
+        text-align: center;
+        margin-bottom:8px ;
+        margin-top: 28px;
+    }
+    header .container .banner .info .great {
+        width: 187px;
+      
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        color: #ffff;
+        text-align: center;
+        margin-bottom:8px ;
+        color: #eb122f;
+      
+    }
+    
+
+    header .container .banner .info h2 {
+        width: 187px;
+      
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffff;
+        margin-bottom: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-left: 0;
+    }
+    
+    header .container .banner .info a {
+     margin-left: 33px;
+        display: inline-block;
+        background: #eb122f;
+        border-radius: 5px;
+        padding: 8px  12px;
+        color: #ffff;
+        margin-bottom: 0;
+    
+    }
+    
+    header .container .banner .player-image {
+        width: 50%;
+     padding-top: 30px;
+     margin-right: 0;
+   
+    
+    }
+    header .container .banner .player-image img{
+        width: 233px;
+        height: 245px;
+        position: relative;
+        top: 4px;
+    }
+
+    #blogs {
+        margin-top: 0px;
+    }
+    #blogs .player-blog {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    
+    }
+    #blogs .player-blog .blog-bar{
+        margin-bottom: 24px;
+        width: 100%;
+    }
+    #blogs .player-blog .blog-bar .side-bar {
+        background: #ffff;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    #blogs .player-blog .blog-bar .side-bar .match a{
+        border: 1px solid rgb(218, 218, 218);
+    }
+    #blogs .player-blog .blog-bar .side-bar .group a{
+        border: 1px solid rgb(218, 218, 218);
+    }
+   
+    #blogs .player-blog .blog-links {
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 24px;
+        margin-left:
+        40px;
+       
+        
+    }
+    #view {
+       visibility: visible;
+        margin-bottom: 50px;
+    }
+    #view .viewall {
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        width: 100%;
+    }
+    footer hr{
+        width: 335px;
+        text-align: center;
+        margin-bottom: 24px;
+        margin-left:  auto;
+        margin-right:  auto;
+    }
+    footer ul li{
+        display: block;
+        margin-right: 0;
+        padding-bottom: 30px;
+margin-bottom: 0;}
+
+footer .social-link {
+    visibility: visible;
+    margin-top: 6px;
+    margin-left: 23px;
+}
+}
+
+
+@media  screen and (min-width:577px) and (max-width:992px){
+    header{
+        width: 100%;
+   
+    }
+    .container{
+        width: 100%;
+     
+    }
+    header .container{
+        margin-top: 50px;
+    }
+
+  
+    header .container .banner .info{
+        width: 50%;
+        margin-left: 76px;
+   
+    }
+    header .container .banner .info h1 {
+        width: 289px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #ffff;
+        text-align: center;
+        margin-top: 61px;
+        margin-bottom: 10px;
+      
+       
+    }
+    header .container .banner .info .great {
+        width: 289px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+     
+        color: rgb(255, 251, 0);
+      
+    }
+    
+
+    header .container .banner .info h2 {
+        width: 332px;
+        font-family: 'Poppins';
+        font-style: normal;
+        margin-left: 35px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffff;
+      
+    }
+    header .container .banner .info a {
+        display: inline-block;
+        background: #eb122f;
+        border-radius: 5px;
+        padding: 12px  12px;
+        color: #ffff;
+        margin-bottom: 61px;
+        margin-left: 40px;
+    }
+    
+    header .container .banner .player-image {
+        width: 50%;
+    margin-right: 0;
+   
+    
+    }
+
+        header .container .banner .player-image img {
+            width: 100%;
+            height: 100%;
+           
+            margin-left: -15px;
+        }
+    
+
+    #blogs {
+        margin-top: 0px;
+    }
+    #blogs .player-blog {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    
+    }
+    #blogs .player-blog .blog-bar{
+        margin-bottom: 24px;
+        width: 100%;
+    }
+    #blogs .player-blog .blog-bar .side-bar{
+        width: 100%;
+        background: #ffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    #blogs .player-blog .blog-bar .side-bar .match a{
+        border: 1px solid rgb(218, 218, 218);
+      margin-right: 22px;
+       
+    }
+    #blogs .player-blog .blog-bar .side-bar .group a{
+        border: 1px solid rgb(218, 218, 218);
+        margin-bottom: 0;
+        margin-right: 22px;
+        margin-right: 22px;
+    }
+    #blogs .player-blog .blog-bar .side-bar .blog-btn a {
+
+
+    
+    
+        border-radius: 5px;
+        padding: 17px 103px;
+        color: #ffff;
+        background: #eb122f;
+        margin-bottom: 0px;
+    
+    
+    
+    }
+    #blogs .player-blog .blog-links {
+   
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 19px;
+        margin-left:150px;
+        justify-content: center;
+        
+    }
+    #view {
+       visibility: visible;
+        margin-bottom: 50px;
+    }
+    #view .viewall {
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        width: 100%;
+    }
+    footer h1{
+        padding-top: 70px;
+    }
+    footer hr{
+        width: 735px;
+        text-align: center;
+        margin-bottom: 37px;
+        margin-left:  auto;
+        margin-right:  auto;
+    }
+  
+    footer ul li{
+        display: inline;
+        width: 834px;
+        font-weight: 500;
+font-size: 16px;
+line-height: 50px;
+        padding-bottom: 30px;
+margin-bottom: 0;
+margin-right: 20px;
+}
+
+footer .social-link {
+    visibility: visible;
+font-size: 50px;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+}
+  /*  .===.=.==......=..=.=.=.=.=.=..=.=.=.=.=....=..=.=.=.
+                  media query done !!!!
+  .===.=.==......=..=.=.=.=.=.=..=.=.=.=.=....=..=.=.= */
